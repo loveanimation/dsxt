@@ -1,0 +1,31 @@
+{
+  "productId": string,
+  "productName": string,
+  "salePrice":number,
+  "productImg":string,
+  "checked":string,
+  "productNum":number
+}
+用户信息
+user: {
+  userId:string,
+  userNaem:string,
+  userPwd:string,
+  cartList: [
+    {
+      "productId": string,
+      "productName": string,
+      "salePrice":number,
+      "productImg":string,
+      "checked":string,
+    }
+  ],
+  addressList: [
+    "addressId":string,
+    "username":string,
+    "streeName":string,
+    "postCode":number,
+    "tel":number,
+    "isDefault":boolean
+  ]
+}
